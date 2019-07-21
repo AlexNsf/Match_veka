@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from match_veka_app import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index, name='index'),
+    path('news/', views.news, name='news'),
+    path('schedule/', views.schedule, name='schedule'),
+    path('photo/', views.photo, name='photo'),
+    path('video/', views.video, name='video'),
+    path('history/', views.history, name='history'),
+    path('reg_form/', views.reg_form, name='reg_form'),
 ]

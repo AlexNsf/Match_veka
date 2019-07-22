@@ -1,0 +1,100 @@
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+    min-height: 90px;
+    padding-top: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header-index {
+    min-height: 490px;
+}
+
+.page-header,
+.page-footer {
+    color: #c3c3c3;
+    background-color: #363636;
+}
+
+.header-top {
+    margin-bottom: 125px;
+}
+
+.header-logo {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
+.header-logo img {
+    width: 205px;
+    height: 55px;
+}
+
+.main-nav {
+    float: left;
+    width: 600px;
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 125px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li {
+    float: left;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.promo {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+.promo p {
+    color: #ffffff;
+    text-decoration: none;
+}

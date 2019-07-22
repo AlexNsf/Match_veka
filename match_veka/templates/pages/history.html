@@ -1,10 +1,28 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title> История Матча Века </title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1> History </h1>
+<div class="page-header">
+    <div class="container">
+        <div class="header-top clearfix">
+            <div class="header-logo">
+                <img src="{% static 'images/phystech.png' %}" alt="Phystech Football Club" width="205" height="55">
+            </div>
+            <ul class="main-nav clearfix">
+                <li> <a href="#">Новости</a> </li>
+                <li> <a href="#">Расписание</a> </li>
+                <li> <a href="#">Фото</a> </li>
+                <li> <a href="#">Видео</a> </li>
+                <li> <a href="#">История</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h1> History </h1>
 </body>
 </html>
